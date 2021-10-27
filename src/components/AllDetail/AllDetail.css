@@ -1,0 +1,25 @@
+.information{
+    display: flex;
+    background-color: #3215d4;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 70%;
+    
+}
+.information img{
+    width: 400px;
+    text-align: right;
+}
+.info{
+    width:60%;
+    text-align: left;
+    margin-left: 30px;
+}
+.description{
+    margin-top: 20px;
+    width: 70%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
