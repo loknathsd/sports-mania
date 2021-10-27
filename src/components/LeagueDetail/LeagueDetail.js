@@ -26,3 +26,4 @@ const LeagueDetail = () => {
 };
 
 export default LeagueDetail;
+//complete 
