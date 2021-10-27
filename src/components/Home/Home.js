@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-// import { Card } from 'react-bootstrap';
+import { Row ,Col } from 'react-bootstrap';
 import League from '../League/League';
 import './Home.css'
 
@@ -17,9 +17,11 @@ const Home = () => {
     }, [])
     return (
         <div >
-            <div className="header-part">
-            <h1 style={{paddingTop:"100px",color:'yellow'}}>Sports Leagues</h1>
-            </div>
+            <Row className="header-part" >
+                <Col>
+                  <h1 style={{paddingTop:"100px",color:'FloralWhite', fontSize:'60px'}}>Sports Leagues</h1>
+                  </Col>
+            </Row>
             
 
             <div className="card-bg">

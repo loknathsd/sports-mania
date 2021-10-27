@@ -23,3 +23,59 @@
     text-align: left;
     font-size: 20px;
 }
+.social-media{
+    width: 20%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+li a{
+    font-size: 40px;
+    color:white;
+}
+
+
+@media only screen and (max-width: 600px){
+    .information{
+        display: block;
+        background-color: #3215d4;
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 80%;
+        
+    }
+    .information img{
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .info{
+        width:100%;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .description{
+        margin-top: 15px;
+        width: 80%;
+        color: white;
+        text-align: left;
+        font-size: 20px;
+    }
+    .social-media{
+        width: 100%;
+        margin-left:100px ;
+    }
+    li a{
+        font-size: 30px;
+        color:white;
+    }
+    
+   
+    
+}

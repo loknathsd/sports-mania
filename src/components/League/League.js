@@ -1,11 +1,14 @@
 import React from 'react';
 import { Card,Button } from 'react-bootstrap';
 import { useHistory } from 'react-router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 
 
 
 const League = (props) => {
-    const {strLeague,strSport,idLeague,strLogo} = props.league;
+    const {strLeague,strSport,idLeague} = props.league;
     let history = useHistory()
     const handleClick=(id)=>{
         history.push(`/league/${id}`)
@@ -19,7 +22,7 @@ const League = (props) => {
                     <Card.Text>
                        Sports typed : {strSport}
                     </Card.Text>
-                    <Button onClick={()=>handleClick(idLeague)} variant="primary">Explore</Button>
+                    <Button onClick={()=>handleClick(idLeague)} variant="primary">Explore  <FontAwesomeIcon icon={faArrowRight} /></Button>
                 </Card.Body>
             </Card>
         </div>
