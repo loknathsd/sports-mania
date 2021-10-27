@@ -4,9 +4,6 @@ import { useHistory } from 'react-router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-
-
-
 const League = (props) => {
     const {strLeague,strSport,idLeague} = props.league;
     let history = useHistory()

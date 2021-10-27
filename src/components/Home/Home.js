@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-
 import { Row ,Col } from 'react-bootstrap';
 import League from '../League/League';
 import './Home.css'
-
 
 const Home = () => {
     const [leagues, setLeagues] = useState([]);
